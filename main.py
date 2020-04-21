@@ -38,10 +38,16 @@ black_friday.head()
 black_friday.shape
 
 
-# In[6]:
+# In[41]:
 
 
+type(int(black_friday[(black_friday["Gender"]=='F')&(black_friday["Age"]=='26-35')].User_ID.count()))
 
+
+# In[42]:
+
+
+int(black_friday[(black_friday["Gender"]=='F')&(black_friday["Age"]=='26-35')].User_ID.count())
 
 
 # In[ ]:
@@ -79,12 +85,12 @@ def q1():
 # 
 # Há quantas mulheres com idade entre 26 e 35 anos no dataset? Responda como um único escalar.
 
-# In[5]:
+# In[34]:
 
 
 def q2():
     # Retorne aqui o resultado da questão 2.
-    pass
+    return int(black_friday[(black_friday["Gender"]=='F')&(black_friday["Age"]=='26-35')].User_ID.count())
 
 
 # ## Questão 3
