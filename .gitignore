@@ -1,5 +1,5 @@
-__pycache__
-.ipynb_checkpoints
-.pytest_cache
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
 *.py
-*.txt
+stdout.txt
